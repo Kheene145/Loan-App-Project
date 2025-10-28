@@ -18,6 +18,7 @@ Save trained models using pickle for reuse.
 Create a simple and interactive web app using Streamlit.
 
 ### Tools & Libraries Used
+
 Programming Language	Python
 IDE / Environment	Jupyter Notebook → PyCharm
 Data Analysis & ML	pandas, numpy, scikit-learn
@@ -25,17 +26,8 @@ Model Saving	pickle
 Web Framework	Streamlit
 Version Control	Git & GitHub
 
-loan_approval_project/
-│
-├── loan_approval_dataset.csv       # Dataset used for model training
-├── loan_approval_pred.ipynb        # Jupyter Notebook (EDA + Model Training)
-├── loan_app.py                     # Streamlit web app
-├── model.pk1                       # Saved trained ML model
-├── scaler.pk1                      # Saved data scaler
-├── README.md                       # Project documentation
-└── .idea/                          # PyCharm configuration files
 
-📊 Model Development Steps
+## 📊 Model Development Steps
 
 Data Loading & Cleaning – Removed nulls and encoded categorical features.
 
@@ -57,7 +49,7 @@ Git initialized locally with git init.
 
 Project pushed to GitHub repository.
 
-🚀 Future Improvements
+## Future Improvements
 
 Add multiple model options (e.g., Random Forest, XGBoost).
 
